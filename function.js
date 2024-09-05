@@ -12,14 +12,21 @@
 // secondFunction();
 
 
-function sum(x,y) { 
-    let result= x-y;
-    return result;
+// function sum(x,y) { 
+//     let result= x+y;
+//     return result;
+// }
+
+// let total=sum(10,5);
+// console.log(total);
+
+
+
+function square(num1) {
+    // console.log(num1);
+    const borgo=num1 * num1;
+    console.log("Square of number:" + " "+ borgo);
+    
+
 }
-
-let total=sum(10,5);
-console.log(total);
-
-let divide=sum(20,2);
-console.log(divide);
-
+square(2);
