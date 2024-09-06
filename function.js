@@ -22,11 +22,21 @@
 
 
 
-function square(num1) {
-    // console.log(num1);
-    const borgo=num1 * num1;
-    console.log("Square of number:" + " "+ borgo);
-    
+// function square(num1) {
+   
+//     const borgo=num1 * num1;
+//     // console.log( borgo);
+//     console.log("Square of number" + " "+ num1 +' is: '+ borgo);
 
+// }
+// square(2);
+
+
+function doubleIt(number) {
+    const doubled=number*2;
+    console.log(number,doubled);
 }
-square(2);
+console.log('I will call the function')
+doubleIt(15)
+
+ 
