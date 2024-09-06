@@ -38,5 +38,12 @@ function doubleIt(number) {
 }
 console.log('I will call the function')
 doubleIt(15)
+doubleIt(20)
+doubleIt(30)
+console.log("...............");
+
+const num=10;
+doubleIt(num)
+
 
  
