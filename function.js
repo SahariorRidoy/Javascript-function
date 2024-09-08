@@ -80,16 +80,49 @@
 // const userName =name('Saharior','Ridoy');
 // console.log('full name is:',name)
 
-function avg(input) {
-   let total=0;
-   let average=0;
-   let avgg=0;
-   for(const num of input){
-     total=total+num;
-    average= total/input.length;
-     avgg=average;
-   }
-    return avgg.toFixed(2);
+// function avg(input) {
+//    let total=0;
+//    let average=0;
+//    let avgg=0;
+//    for(const num of input){
+//      total=total+num;
+//     average= total/input.length;
+//      avgg=average;
+//    }
+//     return avgg.toFixed(2);
+// }
+// let number=[75.25, 65, 80, 35.45, 99.50];
+// console.log(avg(number));
+
+
+
+// var a = isNaN('true');
+// console.log(a);
+
+// let burger=510;
+// if(burger>=500){
+//     console.log("Coke is free for you")
+// }
+// else{
+//     console.log('Coke is 30 taka')
+// }
+
+
+const weight = 54;
+const height = 2.2;
+
+let BMI = weight / (height * height);
+console.log(BMI);
+
+if (BMI < 18.5) {
+  console.log("you are underweight");
 }
-let number=[75.25, 65, 80, 35.45, 99.50];
-console.log(avg(number));
+else if (BMI >= 18.5 && BMI <= 24.9) {
+  console.log("you are normal");
+}
+else if (BMI >= 25 && BMI <= 29.9) {
+  console.log("you are overweight");
+}
+else{
+    console.log("you are obese")
+}
