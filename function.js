@@ -62,11 +62,20 @@
 
 
 // return
-function fiveTimes(num) {
-    const sum =num*5;
-    return sum;
-}
+// function fiveTimes(num) {
+//     const sum =num*5;
+//     return sum;
+// }
 
-fiveTimes(5);
-const total=fiveTimes(5);
-console.log(total);
+// fiveTimes(5);
+// const total=fiveTimes(5);
+// console.log(total);
+
+
+function name(firstName, lastName) {
+    const fullName=firstName+' '+lastName;
+    console.log(fullName);
+    
+}
+const userName =name('Saharior','Ridoy');
+console.log('full name is:',name)
