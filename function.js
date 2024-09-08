@@ -72,10 +72,24 @@
 // console.log(total);
 
 
-function name(firstName, lastName) {
-    const fullName=firstName+' '+lastName;
-    console.log(fullName);
+// function name(firstName, lastName) {
+//     const fullName=firstName+' '+lastName;
+//     console.log(fullName);
     
+// }
+// const userName =name('Saharior','Ridoy');
+// console.log('full name is:',name)
+
+function avg(input) {
+   let total=0;
+   let average=0;
+   let avgg=0;
+   for(const num of input){
+     total=total+num;
+    average= total/input.length;
+     avgg=average;
+   }
+    return avgg.toFixed(2);
 }
-const userName =name('Saharior','Ridoy');
-console.log('full name is:',name)
+let number=[75.25, 65, 80, 35.45, 99.50];
+console.log(avg(number));
